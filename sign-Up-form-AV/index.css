@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+#container{
+    width: 75%;
+    height: 100vh;
+    background: #f5f5f5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    width: 350px;
+    background: white;
+    padding: 23px;
+    box-shadow: 0 0 1px 0 #ddd;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#card h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 13px;
+    color: cornflowerblue;
+}
+#signup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#signup input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+#signup button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: cornflowerblue;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
